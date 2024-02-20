@@ -1,0 +1,14 @@
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\bin\Debug\net6.0\pjp_cv1.exe
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\bin\Debug\net6.0\pjp_cv1.deps.json
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\bin\Debug\net6.0\pjp_cv1.runtimeconfig.json
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\bin\Debug\net6.0\pjp_cv1.dll
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\bin\Debug\net6.0\pjp_cv1.pdb
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.AssemblyInfoInputs.cache
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.AssemblyInfo.cs
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.csproj.CoreCompileInputs.cache
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.dll
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\refint\pjp_cv1.dll
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.pdb
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\pjp_cv1.genruntimeconfig.cache
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\pjp_cv1\obj\Debug\net6.0\ref\pjp_cv1.dll
