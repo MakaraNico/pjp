@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace pjp_cv1
@@ -178,29 +179,39 @@ namespace pjp_cv1
             line = line.Replace("(", "");
             line = line.Replace(")", "");
 
-            int num_signs = 0;
-            int num_numbers = 0;
-            for (int i = 0; i < line.Length; ++i)
+            //
+
+            string pattern = "([+\\-*/])";
+            string[] res = Regex.Split(line, pattern);
+
+            if (res.Length > 1)
             {
-                if (line[i] == '+' || line[i] == '-' || line[i] == '*' || line[i] == '/')
+                if (res[0] == "" || res[res.Length - 1] == "")
                 {
-                    num_signs++;
+                    return 0;
+                }
+            }
+
+            int delim_count = 0;
+            int num_count = 0;
+
+            for (int i = 0; i < res.Length; i++)
+            {
+                if (res[i] == "+" || res[i] == "-" || res[i] == "*" || res[i] == "/")
+                {
+                    delim_count++;
                 }
                 else
                 {
-                    try
+                    bool is_num = int.TryParse(res[i], out int number);
+                    if (is_num)
                     {
-                        int.Parse(line[i].ToString());
-                        num_numbers++;
-                    }
-                    catch (FormatException)
-                    {
-                        return 0;
+                        num_count++;
                     }
                 }
             }
 
-            if (num_signs + 1 != num_numbers)
+            if (delim_count + 1 != num_count)
             {
                 return 0;
             }
@@ -259,11 +270,12 @@ namespace pjp_cv1
 
             line = MathHandler.CalculateMathExpression(line);
 
-            if (line.Length > 1)
+            if (line[0] == '~')
             {
                 try
                 {
-                    int res = int.Parse(line[1].ToString());
+                    line = line.Replace('~', '-');
+                    int res = int.Parse(line.ToString());
                     res *= -1;
                     return res.ToString();
 
