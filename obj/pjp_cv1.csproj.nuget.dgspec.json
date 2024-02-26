@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\pjp_cv1\\pjp_cv1.csproj": {}
+    "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\pjp1\\pjp\\pjp_cv1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\pjp_cv1\\pjp_cv1.csproj": {
+    "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\pjp1\\pjp\\pjp_cv1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\pjp_cv1\\pjp_cv1.csproj",
+        "projectUniqueName": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\pjp1\\pjp\\pjp_cv1.csproj",
         "projectName": "pjp_cv1",
-        "projectPath": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\pjp_cv1\\pjp_cv1.csproj",
-        "packagesPath": "C:\\Users\\render\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\pjp_cv1\\obj\\",
+        "projectPath": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\pjp1\\pjp\\pjp_cv1.csproj",
+        "packagesPath": "C:\\Users\\Renderwaves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\pjp1\\pjp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\render\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Renderwaves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
